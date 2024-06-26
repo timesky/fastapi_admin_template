@@ -2,7 +2,7 @@
 ---
 
 - 项目根目录结构说明
-  - **main.py**： 程序主入口文件，包括api
+  - **run.py**： 程序主入口文件，包括api
   - **.gitignore**： git忽略列表
   - **README.md**： 项目说明入口文件
   - **requirements.txt**： 项目依赖列表

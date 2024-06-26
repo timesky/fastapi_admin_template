@@ -9,18 +9,31 @@
 
 ## 运行条件
 > 列出运行该项目所必须的条件和相关依赖  
-* 条件一
-* 条件二
-* 条件三
+- 注意
+  - uvicorn依赖包的安装方式，必须指定[standard]安装，这样才能让性能与uwsgi基本一致，standard方式安装的uvicorn是基于cpython优化的版本
+
 
 
 
 ## 运行说明
 > 说明如何运行和使用你的项目，建议给出具体的步骤说明
-* 操作一
-* 操作二
-* 操作三  
 
+- 启动非api脚本、任务等
+
+```bash
+python run.py 命令名称
+```
+
+- 启动api
+    - 开发环境
+    ```bash
+    uvicorn --port 8080 --host 0.0.0.0 --reload run:fast_api_app
+    ```
+    - 生产环境
+
+    ```bash
+    uvicorn --port 8080 --host 0.0.0.0 run:fast_api_app  --workers 4 --loop uvloop --http httptools
+    ```
 
 
 ## 测试说明
