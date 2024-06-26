@@ -1,0 +1,8 @@
+typer==0.12.3
+loguru==0.7.2
+orjson==3.9.15
+playwright==1.30.0
+requests==2.32.3
+aiohttp==3.9.5
+brotli==1.1.0
+PyExecJS==1.5.1
