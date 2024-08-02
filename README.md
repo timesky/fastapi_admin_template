@@ -1,9 +1,8 @@
-机票Booking模块
+fastapi 项目模板
 ---
 
-> - 基础数据抓取
-> - 基础数据查询接口
-> - 预订流程相关接口及脚本
+> - 调整说明
+>   - 核心公共代码改为依赖[py_commons]库（克隆时需要加参数 --recursive）
 
 ## [目录结构说明](docs/directory_structure_description.md)
 

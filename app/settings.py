@@ -59,3 +59,5 @@ FASTAPI_INIT_OPTIONS = {
 }
 
 FASTAPI_CORS_ORIGINS = env.list('CORS_ORIGINS', ['http://localhost:9528', 'http://127.0.0.1:9528'], subcast=str)
+
+API_PERFIX = env.str('API_PERFIX', '/tpl/api/v1')
