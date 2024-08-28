@@ -1,3 +1,5 @@
 [submodule "commons"]
 	path = commons
 	url = git@codeup.aliyun.com:634a3bd474d6ec11116bcd6f/flight/py_commons.git
+    branch = master
+    ignore = dirty
